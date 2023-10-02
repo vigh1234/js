@@ -1,0 +1,79 @@
+body{
+    background:linear-gradient(to right,rgb(7, 7, 86),rgb(50, 50, 173),rgb(155, 155, 217))
+    
+}
+#div1{
+   margin-left: 500px;
+   margin-top: 50px;
+}
+#a1{
+    padding-left: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.div2{
+    margin-left: 570px;
+}
+#ip1{
+background-color: transparent;
+}
+.p1{
+    margin-left: 470px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 40px;
+}
+#aa{
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 200px;
+    height: 30px;
+    
+    
+}
+.div1{
+    margin-left: 540px;
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    box-shadow: 3px 3px 3px white;
+
+}
+#ab{
+    margin-left: 600px;
+    height: 18px;
+    width: 18px;
+    margin-top: 40px;
+    
+}
+#div5{
+    margin-left: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+.div9{
+    margin-left: 540px;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    box-shadow: 3px 3px 3px white;
+    margin-bottom: 10px;
+}
+#div3{
+    border: none;
+}

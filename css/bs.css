@@ -1,0 +1,14 @@
+#id1{
+    width: 100px;
+    height: 100px;
+}
+.spinner-border{
+    color: rgb(167, 52, 71);
+}
+.progress{
+    width: 80%;
+    margin-left: 10%;
+}
+.dropdown{
+    margin-bottom: 10%;
+}

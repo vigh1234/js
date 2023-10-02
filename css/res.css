@@ -1,0 +1,224 @@
+body{
+    background-color: lightgray;
+  
+}
+@media only screen and (max-width: 900px){
+    body{
+       background-color: white;
+    }
+}
+
+h1{
+    text-align: center;
+    text-shadow: 3px 2px 4px black;
+    color: rgb(55, 109, 160);
+}
+#div1{
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-top: 1px;
+    border: ridge; border-width: 4px; border-color: rgb(55, 109, 160); 
+    width: 8%;
+    display: inline-block;    
+}
+#div2{
+    float: right;
+    margin-top: 67px;
+    margin-right: 150px;
+    font-weight: bolder;   
+}
+#div3{
+    float: right;
+    margin-top: 97px;
+    margin-right: -192px;    
+}
+#div4{
+    float: right;
+    margin-top: 127px;
+    margin-right: -110px;    
+}
+#p1{
+margin-left: 40px;
+margin-top: 30px;
+border: ridge; border-width: 0px; 
+background-color: rgb(12, 52, 94);
+width: 93%;
+color: white;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 7px;
+font-weight: bolder;
+}
+#p2{
+    margin-left: 40px;   
+}
+#t1{
+    width: 93.5%;
+    margin-left: 40px;
+    margin-top: 5px;   
+}
+th{
+    background-color:rgb(136, 166, 153); 
+}
+td{
+    text-align: center;
+    background-color: rgb(203, 213, 226)   
+}
+#p3{
+    margin-left: 40px;
+    font-weight: bolder;
+    display: inline-block;
+    text-decoration: underline;
+}
+#div5{
+    margin-left: 20px;
+    padding-top: -30px;
+}
+#div6{
+    margin-left: 40px;
+    font-weight: bolder;
+    display: inline-block;
+}
+#div7{
+    margin-left: 200px;
+    margin-top: -90px;
+}
+#div8{
+    margin-left: 200px;
+    margin-top: -35.5px;
+}
+#div9{
+    margin-left: 200px;
+    margin-top: -53px;
+
+}
+#div10{
+    margin-left: 200px;
+    margin-top: -73px;
+}
+#div11{
+    margin-left: 200px;
+    margin-top: -38px;
+}
+#div12{
+    margin-left: 40px;
+}
+#div13{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+#div14{
+    margin-left: 40px;
+    margin-top: 5px;
+    font-weight: bolder;
+    display: inline-block;    
+}
+#div15{
+    float: right;
+    font-weight: bolder;
+    margin-right: 40px;
+}
+.s1{
+    margin-top: 30px;
+}
+.s2{
+    width: 96.7%;
+}
+.cls1,.cls2,.cls3,.cls4,.cls5,.cls6{
+    border-width: 1px; border-style: ridge; border-color: rgb(62, 59, 59);
+    border:.5%;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.cls1{
+    
+    margin-left: 40px;
+    width:13%;
+    margin-right: 4px;
+    text-align: center; 
+    background-color:rgb(136, 166, 153) ;   
+}
+.cls2{
+    margin-left: -10.5px;
+    width:7.5%;
+    margin-right: 4px;
+    text-align: center; 
+    background-color:rgb(136, 166, 153) ;   
+}
+.cls3{
+    margin-left: -10.5px;
+    width:15.8%;
+    margin-right: 4px;
+    text-align: center; 
+    background-color:rgb(136, 166, 153) ;   
+}
+.cls4{
+    margin-left: -10.5px;
+    width:16.6%;
+    margin-right: 4px;
+    text-align: center; 
+    background-color:rgb(136, 166, 153) ;   
+}
+.cls5{
+    margin-left: -10.5px;
+    width:30%;
+    margin-right: 4px;
+    text-align: center; 
+    background-color:rgb(136, 166, 153) ; 
+    display: inline-block;  
+}
+.cls6{
+   margin-left: -10.5px;
+   width:14%;
+    text-align: center; 
+    background-color:rgb(136, 166, 153) ; 
+}
+#cls1,#cls2,#cls3,#cls4,#cls5,#cls6{
+    border-width: 1px; border-style: ridge; border-color: rgb(62, 59, 59);
+    border:.7%;
+    padding-top: 7px;
+    background-color: rgb(203, 213, 226) ; 
+    padding-bottom: 5px;
+    display: inline-block;
+}   
+#cls1{
+    
+    margin-left: 40px;
+    width:13%;
+    margin-right: 4px;
+    text-align: center; 
+}
+#cls2{
+    margin-left: -10.5px;
+    width:7.5%;
+    margin-right: 4px;
+    text-align: center;      
+}
+#cls3{
+    margin-left: -10.5px;
+    width:15.8%;
+    margin-right: 4px;
+    text-align: center; 
+     
+}
+#cls4{
+    margin-left: -10.5px;
+    width:16.6%;
+    margin-right: 4px;
+    text-align: center;      
+}
+#cls5{
+    margin-left: -10.5px;
+    width:30%;
+    margin-right: 4px;
+    text-align: center; 
+     display: inline-block;  
+}
+#cls6{
+    margin-left: -10.5px;
+    width:14%;
+    text-align: center;     
+}

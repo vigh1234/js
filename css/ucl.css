@@ -1,0 +1,26 @@
+body{
+    background:linear-gradient(to right,rgb(2, 2, 108),rgb(55, 55, 185),rgb(137, 137, 166))
+}
+.hh,.hj{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 6px 4px 3px black;
+    font-family: sans-serif;
+}
+#id1{
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.row{
+    border: solid; 
+    border-color:rgb(214, 216, 216);
+    border-width: 1.5px;
+    background-color: rgb(16, 16, 110);
+   height: 70px;
+   border-radius: 20px;
+   box-shadow: 4px 4px 6px black;
+}
+#v{
+    font-size: 45px;
+}

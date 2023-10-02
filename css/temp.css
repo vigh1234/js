@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(234, 225, 217);
+}
+.gg{
+    font-family: sans-serif;
+    font-size: 60px;
+}
+.gf{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+#s1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.text-dark{
+    font-weight: bold;
+}
+.col-sm-1{
+    font-size: x-large;
+}
+#b1{
+    border: solid; 
+    border-width: 1.5px;
+}

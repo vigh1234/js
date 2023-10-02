@@ -1,0 +1,138 @@
+body{
+    background-image: url(image/bb.jpg); 
+    background-size: cover;
+    background-position: top center;
+    position: relative; 
+    background-repeat: no-repeat;  
+}
+
+#p1{
+    margin-top: 17%;
+    margin-left: 10%;
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+#h1{
+    margin-top: -2%;
+    margin-left: 10%;
+    font-size: 55px;
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    
+}
+#h1:hover,#p1:hover,#p2:hover{
+    text-shadow: 3px 4px 3px rgb(165, 112, 112);
+    
+}
+#p2{
+    margin-top: -2%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: white; 
+    font-family: sans-serif;
+}
+#p3{
+    color: white;
+}
+#img1{
+    margin-top: -390px;
+    margin-right:400px;
+    float: right;
+}
+#pp{
+    margin-top: -382px;
+    margin-right:355px;
+    float: right;
+    color: white;
+    font-size: larger;
+    margin-left: 35px ;
+}
+#img2{
+    margin-top: -390px;
+    margin-right:300px;
+    float: right;
+}
+#pq{
+    margin-top: -382px;
+    margin-right:255px;
+    float: right;
+    color: white;
+    font-size: larger;
+    margin-left: 35px ;
+}
+#img3{
+    margin-top: -398px;
+    margin-right:194px;
+    float: right;
+}
+#pr{
+    margin-top: -382px;
+    margin-right:148px;
+    float: right;
+    color: white;
+    font-size: larger;
+    margin-left: 35px ;
+}
+#img4{
+    margin-top: -402px;
+    margin-right:80px;
+    
+    float: right;
+}
+#ps{
+    margin-top: -384px;
+    margin-right:72px;
+    float: right;
+    color: white;
+    font-size: 22px;
+    margin-left: 35px ;
+}
+#c1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+}
+#c1:hover{
+    text-shadow: 3px 4px 3px rgb(165, 112, 112);
+}
+#hr1{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: -40px;
+}
+#hr2{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%;
+    background-color: white;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    float: right;
+}
+.div1{
+    margin-left: 480px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.div2{
+    margin-left: 620px;
+    margin-top:-75px;  
+     
+}
+.div3{
+    float: right;
+    margin-right: 466px;
+    margin-top: -71px;
+}
+#pp:hover,#pq:hover,#pr:hover,#ps:hover{
+    font-weight:bolder;
+}

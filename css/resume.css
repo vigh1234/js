@@ -1,0 +1,43 @@
+body{
+   background: linear-gradient(to right, rgb(114, 114, 114),rgb(222, 220, 220),white);
+   background-repeat: no-repeat;
+}
+.va{
+    font-weight: bolder;
+    font-family: none;
+}
+.vs{
+   margin-right: 20px;
+   margin-top: -10px;
+}
+#d1,#d2{
+   margin-left: 77%;
+   margin-top: -13px;
+}
+.aa{
+   background-color: rgb(12, 52, 94);
+   font-family: none;  
+}
+.vv{
+   background:linear-gradient(to right, rgb(136, 166, 153),rgb(78, 107, 93));
+}
+#a1{
+   font-weight: bolder;
+   font-family: none;
+}
+.x{
+  background-color: rgb(178, 177, 177);
+}
+#th{
+   font-weight: bolder;
+   font-family: none;
+}
+#img1{
+   display: inline-block;
+}
+#d1{
+   float: right;
+}
+#m{
+float: right;
+}

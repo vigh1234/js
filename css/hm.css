@@ -1,0 +1,81 @@
+body {
+  background-image: url(image/bb.jpg);
+  background-size: cover;
+  position: relative;
+}
+#p1 {
+  margin-top: 17%;
+  font-size: 40px;
+  color: white;
+  font-family: sans-serif;
+}
+#h1 {
+  font-size: 60px;
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+}
+#pq {
+  font-size: 20px;
+  color: white;
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+#p1:hover,#h1:hover,#pq:hover {
+  text-shadow: 3px 4px 3px rgb(165, 112, 112);
+  animation: shake 0.8s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0)
+  }
+
+  25% {
+    transform: translateX(25px);
+  }
+
+  50% {
+    transform: translateX(-25px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+#p {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin-top: 140px;
+  font-family: sans-serif;
+}
+
+#hr1 {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  margin-left: 3px;
+  margin-top: -60px;
+}
+
+#ig {
+  display: inline-block;
+}
+
+.pp {
+  display: flex;
+  justify-content: space-around;
+}
+
+#nn {
+  width: "90px";
+  height: "90px";
+}
+
+#xx {
+  margin-top: 15px;
+}

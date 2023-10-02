@@ -1,0 +1,158 @@
+body{
+    
+    background-color: lightslategray;
+    
+   
+    
+}
+.h1{
+    
+    border: ridge; border-width: 7px;
+    border-radius: 20px;
+    width: 80%;
+    color: white;
+    margin-top: 10%;
+    padding: 35px;
+    margin-left: 7%;
+    outline: 5px solid lightblue;
+    outline-offset: 40px;
+
+}
+#id1,#id2,#id3,h1{
+    text-align: center;
+    
+}
+td{
+    background-color: lightblue;
+    font-style: italic;
+    text-decoration: solid;
+    color: rgb(35, 29, 25)
+}
+th{
+    background-color: rgb(210, 181, 250);
+    font-style: italic;
+    text-decoration: solid;
+    color: rgb(35, 29, 25)
+}
+.t1{
+opacity: 1; 
+margin:100px 300px 10px; 
+}
+.t2{
+    opacity: 0.6;  
+    margin:100px 300px 10px;
+}
+.t3{
+    opacity: 0.3;  
+    margin:100px 300px 10px;
+}
+#h2{
+    
+    border-style:dotted dashed solid double ;
+    border-width: 5px;
+    border-radius: 20px;
+    width: 80%;
+    color: white;
+    border-color: rgb(207, 245, 124);
+    text-align: center;
+    font-style: italic;
+    padding: 35px;
+    margin-top: 50px;
+    margin-left: 7%;
+
+    
+}
+div #p1{
+
+    margin: 20%;
+    color:aliceblue;
+}
+div #p2{
+  margin: 20%; 
+  color:aliceblue;
+
+}
+.t2{
+    border-style: ridge; width: 100px;
+    border-color: blanchedalmond;
+    width:40%;
+    height: 30%;
+    
+}
+.h1,#h2{
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-style: wavy;
+    
+}
+#a1,#a2{
+    text-decoration: none;
+    text-decoration: none;
+    color:red;    
+}
+#a1:link,#a2:link{
+    color: hotpink;
+}
+#a1:visited,#a2:visited{
+    color: black;
+}
+#a1:hover,#a2:hover{
+    color:green;
+}
+#a1:active,#a2:active{
+    color: blue;
+}
+
+#s2{
+    margin-left: 40px;
+    color: brown;
+    display: inline-block;
+}
+
+#id1,#id2{
+    font-size: 80px;
+}
+.id1,.id2{
+    font-size: 80px;
+}
+.glyphicon-cloud{
+ font-size: 80px;
+}
+
+#ul1{
+    list-style: lower-roman;    
+}
+#ul2{
+    list-style: square;   
+}
+#ul3{
+    list-style: circle;
+    
+}
+
+li{
+    display: inline;
+}
+#of{
+    background-color: lightblue;
+  width: 210px;
+  height: 90px;
+  overflow: hidden;
+  display: inline-block;
+  
+}
+#of1{
+    background-color: rgb(227, 89, 26);
+  width: 210px;
+  height: 90px;
+  overflow: scroll;
+  float: right;
+  margin-right: 60%;
+  
+}
+div+p{
+    background-color: yellow;
+}
+.h1:hover{
+    font-size: 80px;
+}

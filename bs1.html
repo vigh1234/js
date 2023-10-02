@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+</head>
+<body>
+    data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+<div class="container mt-3">
+  <h3>Tooltip Positioning</h3>
+  <p>The data-bs-placement attribute specifies the tooltip position.</p>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Hello!">Top</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="hi!">Bottom</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="u!">Left</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!">Right</a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script>
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+<div class="container mt-3">
+    <h3>Popover Example</h3>
+    
+    <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Popover Header" data-bs-content="Some content inside the popover">
+      Toggle popover
+    </button>
+  </div>
+  
+  <script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  })
+  </script>
+  <div class="container mt-3">
+    <h3>Dismissible Popover</h3>
+    
+    <a href="#" title="Dismissible popover" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Click anywhere in the document to close this popover">Click me</a>
+  </div>
+  
+  <script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  })
+  </script>
+<div class="container mt-3">
+    <h3>Hoverable Popover</h3>
+    
+    <a href="#" title="Header" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Popover text">Hover over me</a>
+  </div>
+  
+  <script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  })
+  </script>
+<div class="container mt-3">
+    <h3>Toast Example</h3>
+    <p>In this example, we use a button to show the toast message.</p>
+  
+    <button type="button" class="btn btn-primary" id="toastbtn">Show Toast</button>
+    
+    <div class="toast">
+      <div class="toast-header">
+        <strong class="me-auto">Toast Header</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+      </div>
+      <div class="toast-body">
+        <p>Some text inside the toast body</p>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+  document.getElementById("toastbtn").onclick = function() {
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function(toastEl) {
+      return new bootstrap.Toast(toastEl)
+    })
+    toastList.forEach(toast => toast.show()) 
+  }
+  </script>
+<body>
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+          <div class="container-fluid">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#section1">Section 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2">Section 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section3">Section 3</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        
+        
+        <div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+          <h1>Section 1</h1>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        
+        <div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+          <h1>Section 2</h1>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        
+        <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+          <h1>Section 3</h1>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        
+
+   
+      
+</body>
+</html>
