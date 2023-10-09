@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/validationjquery.css">
+    <title>form validation</title>
+</head>
+<body>
+    <h3 class="mt-5 text-center">Registration form</h3>
+        <div id="bg" class="container text-center border 2px">
+                    <div class="mt-4">
+                        <form action="#" id="form">
+                            <div>
+                                <label class="me-4">Name</label>
+                                <input class="ms-3 mt-4" type="text" class="form control" placeholder="Enter your name" name="name" id="username">
+                            </div>
+                            <div id="Error1"></div>
+                            
+                            <label>Email</label>
+                            <input class="ms-5 mt-4" type="email" class="form control" placeholder="Enter email id" name="email" id="useremail">
+                            <div id="Error2"></div>
+                            
+                            <label>Password</label>
+                            <input class="ms-3 mt-4" type="password" class="form control" placeholder="Enter password" name="password" id="userpassword">
+                            <div id="Error3" ></div>
+                            
+                            <div class="mt-4"><input type="checkbox" id="checkbox" checked>  I accept the <a href="#">Terms and conditions</a></div> 
+                            
+                            <div><select id="userselect" name="select" class="mt-4">
+                              <option>choose Account type</option>
+                              <option>public</option>
+                              <option>private</option>
+                            </select></div> 
+                            <div id="Error4" ></div> 
+                            <div class="mt-4">
+                            <label>Gender: </label>
+                              <input type="radio" name="gender" class="sa"id="male" value="male" />
+                                  <label id="ml" for="male">Male</label>
+                              <input type="radio" name="gender" class="sa" id="female" value="female" />
+                                  <label id="fm" for="female">Female</label>
+                              </div>
+                              <div id="Error5"></div>
+                            <div><input class="btn btn-primary mt-4 mb-5" type="submit" id="submit"></input></div>
+                            
+                        </form>
+                    </div>
+                </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/validationjquery.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>           
+</body>
+</html>

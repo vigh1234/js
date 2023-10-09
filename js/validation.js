@@ -4,6 +4,8 @@ function validateform()
     var email=document.getElementById('email').value;
     var password=document.getElementById('password').value;
     var select=document.getElementById("select").value
+    var gender=document.getElementsByName("gender");
+    // var checkbox=document.getElementsById("jk");
     var myModal= new bootstrap.Modal(document.getElementById('myModal'));
     
     if(name=="")
@@ -30,6 +32,17 @@ function validateform()
         document.getElementById('pp').innerHTML="please choose an account type";
         return false;
     }
+    // else if(!checkbox.checked){
+    //     myModal.show();
+    //     document.getElementById('pp').innerHTML="please agree to our terms and conditions";
+    //     return false;
+    // }
+    else if(gender[0].checked == false && gender[1].checked==false){
+        myModal.show();
+        document.getElementById('pp').innerHTML="please choose your gender";
+        return false;
+    }
+
     else{
          return true;
         

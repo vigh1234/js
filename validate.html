@@ -24,14 +24,26 @@
                             <label>Password</label>
                             <input class="ms-3 mt-4" type="password" class="form control" placeholder="Enter password" name="password" id="password">
                             
-                            <div class="mt-4"><input type="checkbox" checked>  I accept the <a href="#">Terms and conditions</a></div>
+                            <div class="mt-4"><input type="checkbox" id="checkbox" checked>  I accept the <a href="#">Terms and conditions</a></div> 
                             
                             <div><select id="select" name="select" class="mt-4">
                               <option>choose Account type</option>
                               <option>public</option>
                               <option>private</option>
                             </select></div>
-                          
+                            <label>Gender: </label>
+                              <input type="radio" name="gender" id="male" value="male" />
+                                  <label for="male">Male</label>
+                              <input type="radio" name="gender" id="female" value="female" />
+                                  <label for="female">Female</label>
+                                <div class="mt-5">
+                                  <!-- <label>Status:</label>
+                                  <div><input type="checkbox" name="chk[]" value="single" id="chk_stat">single
+                                    <input type="checkbox" name="chk[]" value="Married" id="chk_stat">Married
+                                    <input type="checkbox" name="chk[]" value="Divorcee" id="chk_stat">Divorcee
+                                    <input type="checkbox" name="chk[]" value="Student" id="chk_stat">Student</div>
+                                </div> -->
+                                  
                             <div class="btn btn-primary mt-4 ms-2" onclick="validation()">submit</div>
                             
                         </form>
